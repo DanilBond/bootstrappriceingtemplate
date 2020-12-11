@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{box-sizing: border-box;}
+body, html{ padding: 0; margin: 0; font-family: 'Roboto', sans-serif;}
+
+header nav ul li{
+    margin: 0 10px;
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 71px;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+#Header__Margin{
+    margin: 0 auto;
+}
+#Header__MainLink{
+    font-size: 1.25rem;
+}
+#Header__SignUp{
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 8px 12px;
+    color: #007bff;
+}
+#Main__main{
+    
+}
+#Main__h1{
+    font-weight: 300;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 75px;
+    margin-bottom: 5px;
+}
+#Main__p{
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 300;
+    max-width: 725px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 550px){
+    #Header__Margin{
+        display: none;
+    }
+    header nav ul {
+        flex-wrap: wrap;
+        height: 100px;
+    }
+}
